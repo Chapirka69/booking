@@ -4,9 +4,7 @@ function Footer() {
   return (
     <footer className="bg-gray-100 text-gray-600 p-8">
       <div className="max-w-7xl mx-auto">
-        {/* Основные колонки с ссылками */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
-          {/* Колонка 1: Помощь */}
           <div>
             <h3 className="font-bold mb-4">Помощь</h3>
             <ul className="space-y-2">
@@ -33,7 +31,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Колонка 2: Разное */}
           <div>
             <h3 className="font-bold mb-4">Разное</h3>
             <ul className="space-y-2">
@@ -60,7 +57,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Колонка 3: Правила и настройки */}
           <div>
             <h3 className="font-bold mb-4">Правила и настройки</h3>
             <ul className="space-y-2">
@@ -87,7 +83,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Колонка 4: Партнёрам */}
           <div>
             <h3 className="font-bold mb-4">Партнёрам</h3>
             <ul className="space-y-2">
@@ -114,7 +109,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Колонка 5: Компания */}
           <div>
             <h3 className="font-bold mb-4">Компания</h3>
             <ul className="space-y-2">
@@ -157,7 +151,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Валюта и язык */}
         <div className="flex items-center space-x-4 mb-8">
           <span className="flex items-center">
             <span className="mr-1">🇷🇺</span>
@@ -165,7 +158,6 @@ function Footer() {
           </span>
         </div>
 
-        {/* Нижняя часть: копирайт и логотипы партнёров */}
         <div className="border-t pt-4 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm">
